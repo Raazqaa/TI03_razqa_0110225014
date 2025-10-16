@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pizza Order | Black Goose Bistro</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>Black Goose Bistro | Pizza on Demand</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad id facere
+        aliquam quaerat sequi, sit earum modi perspiciatis quod minus cum
+        aspernatur non. Atque necessitatibus illum beatae quam velit aspernatur.
+      </p>
+
+      <form action="output.php" method="post" id="pizza-order-form">
+        <fieldset>
+          <legend>Your Information</legend>
+
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required /> <br />
+
+          <label for="address">Address:</label>
+          <input type="text" id="address" name="address" required /><br />
+
+          <label for="phoneNumber">Phone Number:</label>
+          <input
+            type="tel"
+            id="phoneNumber"
+            name="phoneNumber"
+            required
+          /><br />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required /><br />
+
+          <label for="instruction">Detail Instruction:</label><br />
+          <textarea
+            id="instruction"
+            name="instruction"
+            placeholder="No more than 400 characters"
+            maxlength="400"
+            rows="4"
+            cols="40"
+          ></textarea>
+        </fieldset>
+
+        <fieldset>
+          <legend>Design Your Dream Pizza</legend>
+
+          <h4>Crust (Choose one):</h4>
+          <label
+            ><input type="radio" name="crust" value="classic" required />
+            Classic White</label
+          ><br />
+          <label
+            ><input type="radio" name="crust" value="multigrain" />
+            Multigrain</label
+          ><br />
+          <label
+            ><input type="radio" name="crust" value="cheese-stuffed" />
+            Cheese-Stuffed Crust</label
+          ><br />
+          <label
+            ><input type="radio" name="crust" value="gluten-free" />
+            Gluten-Free</label
+          >
+
+          <h4>Toppings (Choose as many as you like):</h4>
+          <label
+            ><input
+              type="checkbox"
+              name="toppings[]"
+              value="red-sauce"
+              checked
+            />
+            Red Sauce</label
+          ><br />
+          <label
+            ><input type="checkbox" name="toppings[]" value="white-sauce" />
+            White Sauce</label
+          ><br />
+          <label
+            ><input type="checkbox" name="toppings[]" value="mozarella" />
+            Mozarella Cheese</label
+          ><br />
+          <label
+            ><input type="checkbox" name="toppings[]" value="pepperoni" />
+            Pepperoni</label
+          ><br />
+          <label
+            ><input type="checkbox" name="toppings[]" value="mushrooms" />
+            Mushrooms</label
+          ><br />
+          <label
+            ><input type="checkbox" name="toppings[]" value="peppers" />
+            Peppers</label
+          ><br />
+          <label
+            ><input type="checkbox" name="toppings[]" value="anchovies" />
+            Anchovies</label
+          >
+        </fieldset>
+
+        <fieldset>
+          <legend>Order Details</legend>
+          <label for="numberOfPizza">How many pizzas:</label>
+          <select id="numberOfPizza" name="numberOfPizza" required>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+          </select>
+        </fieldset>
+
+        <div class="form-actions">
+          <button type="submit">Submit</button>
+          <button type="reset">Reset</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
