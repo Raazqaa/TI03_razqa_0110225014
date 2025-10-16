@@ -1,0 +1,91 @@
+* {
+  font-family: cursive;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+main {
+  width: 80%;
+  margin: auto;
+}
+.title {
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+.container1 {
+  display: flex;
+  justify-content: center;
+  line-height: 2.5;
+  align-items: center;
+}
+.imageBox {
+  width: 20%;
+  text-align: center;
+  margin: 10px 20px;
+}
+.imageBox img {
+  border-radius: 10px;
+  width: 80%;
+}
+.profileBox {
+  width: 35%;
+  font-size: 2.1vh;
+}
+
+.container2 {
+  width: 75%;
+  margin: auto;
+  margin-top: 20px;
+}
+.container3 {
+  display: flex;
+  width: 85%;
+  gap: 25px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  align-items: center;
+  border-radius: 10px;
+}
+.box1 {
+  width: 45%;
+}
+.box1 video {
+  width: 100%;
+  border-radius: 10px;
+}
+.box2 {
+  width: 35%;
+  display: grid;
+  grid-template-columns: auto;
+  text-align: center;
+  align-items: center;
+  gap: 10px;
+}
+.box2 img {
+  width: 85%;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+.box2 img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.box3 {
+  width: 15%;
+  justify-content: center;
+  align-items: center;
+  line-height: 3.5;
+  align-content: center;
+}
+.box3 a {
+  color: black;
+  text-decoration: overline;
+}
+.box3 a:hover {
+  font-weight: bold;
+}
+.box3 span{
+    color: gray;
+    font-size: small;
+}
