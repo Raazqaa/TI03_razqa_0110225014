@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="assets/cart.css">
+</head>
+
+<body>
+    <header>
+        <div class="title">
+            <img src="assets/img/anonymous.webp" alt="">
+            <a href="#">Suradhi Store</a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Category 1 | </a></li>
+                <li><a href="#">Category 2 | </a></li>
+                <li><a href="#">Category 3 | </a></li>
+            </ul>
+        </nav>
+        <div class="event">
+            <img src="assets/img/search-interface-symbol.png" alt="">
+            <img src="assets/img/shopping-cart.png" alt="">
+            <p>Cart(1)</p>
+        </div>
+    </header>
+
+    <main>
+        <h1>Your Cart</h1>
+        <div class="container">
+            <div class="box1">
+                <table>
+                    <div class="tHead">
+                        <hr>
+                        <th>Item</th>
+                        <th>Price</th>
+                        <th>Quantity</th>
+                    </div>
+                    <tr>
+                        <td class="item">
+                            <img src="assets/img/anonymous.webp" alt="" width="100px">
+                            <div class="desc">
+                                <p>T-Shirt</p>
+                                <p>Size:Small</p>
+                            </div>
+                        </td>
+                        <td class="price">$20.00</td>
+                        <td class="quantityTable">
+                            <form action="">
+                                <select name="quantity" id="quantity">
+                                    <option value="quantity">1</option>
+                                    <option value="quantity">2</option>
+                                    <option value="quantity">3</option>
+                                    <option value="quantity">4</option>
+                                    <option value="quantity">5</option>
+                                </select>
+                            </form>
+                        </td>
+                    </tr>
+                    <div class="subTotal">
+                        <tr>
+                            <td>Subtotal: $20.00</td>
+                        </tr>
+                    </div>
+                </table>
+            </div>
+            <div class="box2">
+                <h3>Summary (Item 1)</h3>
+                <div class="subBox">
+                    <p>subtotal</p>
+                    <p>$20.00</p>
+                </div>
+                <div class="subBox">
+                    <p>Shipping</p>
+                    <p>-</p>
+                </div>
+                <div class="subBox">
+                    <p>Est</p>
+                    <p>-</p>
+                </div>
+                <hr>
+                <div class="subBox">
+                    <p>Total</p>
+                    <p>$20.00</p>
+                </div>
+                <div class="button">
+                    <p>Checkout</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <h3>
+            SuradhiStore.com
+        </h3>
+        <nav>
+            <ul>
+                <li><a href="#">Category 1 | </a></li>
+                <li><a href="#">Category 2 | </a></li>
+                <li><a href="#">Category 3 | </a></li>
+            </ul>
+        </nav>
+        <form action="">
+            <div>
+                <label for="subs">join our Newsletter.</label>
+            </div>
+            <div>
+                <input type="email" name="subs" id="subs" placeholder="Enter Email">
+            </div>
+        </form>
+    </footer>
+</body>
+
+</html>
