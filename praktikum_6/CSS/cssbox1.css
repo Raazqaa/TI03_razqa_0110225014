@@ -1,0 +1,21 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.containerBox {
+  display: flex;
+  gap: 15px;
+  justify-content: space-evenly;
+  margin-top: 130px;
+}
+.containerBox div {
+  width: 20%;
+  height: 100vh;
+}
+div img {
+  width: 100%;
+  border-radius: 10px;
+  align-items: center;;
+}
