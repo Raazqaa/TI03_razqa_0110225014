@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+  font-weight: 500;
+  font-size: larger;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 10px;
+}
+body {
+  margin: auto;
+  padding: 30px;
+  background-color: mediumaquamarine;
+}
+header {
+  height: 8vh;
+  width: 100%;
+  padding: 10px;
+  background-color: lightcoral;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main {
+  display: flex;
+  height: 78vh;
+  padding-block: 20px;
+}
+aside {
+  width: 25%;
+  height: 100%;
+  background-color: lightcyan;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
+article {
+  width: 75%;
+  height: 100%;
+  background-color: lightseagreen;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 30px;
+  margin-left: 10px;
+  padding-inline: 20px;
+}
+.imageBox {
+  display: flex;
+  justify-content: center;
+}
+.image {
+  background-color: lightgrey;
+  padding: 10px;
+  margin: 10px;
+  width: 33%;
+  min-height: 150px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+footer {
+  background-color: lightpink;
+  height: 8vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

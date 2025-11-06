@@ -1,0 +1,30 @@
+main{
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+}
+.box1,
+.box2 {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-block: 10px;
+}
+.box1 .item {
+  width: 34%;
+  background-color: tomato;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.box2 .item {
+  width: 20%;
+  background-color: turquoise;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+img {
+  height: 100%;
+  width: 100%;
+}
